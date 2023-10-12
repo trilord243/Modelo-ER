@@ -1,8 +1,60 @@
-# Modelo-ER
-La compañía Apple Inc. ha contratado a los estudiantes de la materia Bases de Datos I (BDI) de la UNIMET para que ayuden a unificar su sistema de venta de aplicaciones, canciones y otros productos para los dispositivos que son comercializados por ésta, a través de la creación de una nueva BD para poder implementar tal sistema.	
-Se desea llevar el registro de las ventas tanto de aplicaciones como de otros productos. Las aplicaciones son publicadas tanto por desarrolladores como por compañías. De éstos se desea conocer el nombre, la fecha de afiliación, dirección y un correo electrónico de contacto.		
-Por otro lado se tienen las aplicaciones que son comercializadas por la App Store, las cuales se desean clasificar según su temática: juegos, cocina, lectura, entre otros. Cada aplicación tiene un costo asociado, el dispositivo compatible, la versión del iOS (Operating System) mínima que se necesita para poder comprarla, una descripción, un nombre, la versión y el tamaño aproximado en Mb. Para Apple es necesario conocer tanto el usuario que compra las aplicaciones y/o canciones como el dispositivo o los dispositivos que posee. Cada usuario tiene un nombre, apellido, una dirección, un correo electrónico y su número de tarjeta de crédito así como la fecha de vencimiento de ésta y el código VVT (Valor de Verificación de la Tarjeta). Un usuario puede tener más de un dispositivo e inclusive ninguno en caso de que compre música para escucharla en su computador.				
-Debido al gran éxito que han tenido los iDevices de Apple, se tienen varios modelos. De estos dispositivos se desea tener el , modelo, la generación, el iOS (Operating System) con el que viene de fábrica y su capacidad. Todos los productos comercializados tienen una puntuación asociada, entre 0 y 5 puntos pero es importante conocer cuando no ha sido puntuado alguno de los productos. Se quiere saber la fecha exacta de la compra, el usuario que la compró, el monto y si aplica alguna promoción.					
-Las promociones son utilizadas por la compañía para premiar a los usuarios y además generar más ventas. Una promoción tiene una duración determinada. Además las promociones aplican sólo a ciertos países y es importante que esto sea diferenciado. También se desea conocer a los usuarios a los que aplicó alguna promoción cuando realicen alguna compra. Es importante recalcar que los precios de los productos se mantienen y que la promoción no es más que un descuento.	
-Debido al gran crecimiento que se ha tenido en las ventas de música digital en los últimos años, se venden canciones digitales de las cuales se desea conocer el nombre del artista que la interpreta, la casa disquera, la fecha de lanzamiento, la duración de la canción, el nombre del disco al que pertenece, las unidades digitales vendidas, así como un género musical asociado como: Pop, Balada, Rock, entre otras.	
-Se desea también tener la información de los artistas, tales como nombre artístico y además la casa disquera a la que pertenecen, el tiempo que llevan en ella y que sea posible conocer las canciones que han publicado. Las casas disqueras, tienen una dirección asociada y un nombre respectivo con el cual se conocen en el mercado.
+# 🍎 Proyecto UNIMET x Apple Inc.
+
+## Descripción del Proyecto
+
+El equipo de estudiantes de la materia **Bases de Datos I** (BDI) de la **UNIMET** se ha asociado con **Apple Inc.** con el objetivo de crear una base de datos que unifique y optimice el sistema de venta de aplicaciones, música, y otros productos digitales.
+
+## 🚀 Objetivos
+
+- **Unificar Registros**
+- **Gestionar Desarrolladores**
+- **Clasificación de Aplicaciones**
+- **Administrar Usuarios**
+- **Implementar Promociones**
+- **Monitorizar Ventas de Música**
+
+## 📱 Gestionar Desarrolladores y Aplicaciones
+
+### Desarrolladores/Compañías
+
+- **Datos Básicos:** Nombre, fecha de afiliación, dirección, y correo electrónico.
+
+### Aplicaciones
+
+- **Clasificación:** Temáticas como juegos, cocina, lectura, etc.
+- **Detalles:** Costo, dispositivos compatibles, versión de iOS, descripción, nombre, versión, y tamaño.
+
+## 🎶 Gestión de Música y Artistas
+
+### Canciones
+
+- **Detalles:** Nombre del artista, casa discográfica, fecha de lanzamiento, duración, disco perteneciente, unidades vendidas y género musical.
+
+### Artistas
+
+- **Información:** Nombre artístico, casa discográfica, tiempo en la industria, y canciones publicadas.
+
+### Casas Disqueras
+
+- **Datos:** Dirección y nombre en el mercado.
+
+## 💸 Promociones
+
+- **Duración:** Periodo de validez de las promociones.
+- **Aplicabilidad:** Diferenciación por países y usuarios.
+- **Descuentos:** Precios se mantienen; las promociones ofrecen descuentos.
+
+## 📊 Gestión de Usuarios y Compras
+
+### Usuarios
+
+- **Datos Personales:** Nombre, apellido, dirección, correo electrónico, y detalles de tarjeta de crédito.
+- **Dispositivos:** Modelo, generación, iOS de fábrica, y capacidad.
+
+### Compras
+
+- **Registro:** Fecha de compra, usuario, monto y aplicabilidad de promoción.
+
+---
+
+💡 Nota: Este proyecto se encuentra en desarrollo por el equipo de estudiantes de BDI de la UNIMET.
