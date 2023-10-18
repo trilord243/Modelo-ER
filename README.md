@@ -1,60 +1,48 @@
-# 🍎 Proyecto UNIMET x Apple Inc.
+## 🍏Proyecto - Fase 1
 
-## Descripción del Proyecto
+Este repositorio contiene el diseño de la base de datos para el proyecto #1
 
-El equipo de estudiantes de la materia **Bases de Datos I** (BDI) de la **UNIMET** se ha asociado con **Apple Inc.** con el objetivo de crear una base de datos que unifique y optimice el sistema de venta de aplicaciones, música, y otros productos digitales.
+### 📖 Descripción general
 
-## 🚀 Objetivos
+La compañía Apple Inc. ha contratado a los estudiantes de Bases de Datos I (BDI) de la UNIMET para diseñar una nueva base de datos que ayude a unificar su sistema de venta de aplicaciones, canciones y otros productos. Este diseño detalla las entidades, atributos y relaciones necesarias para gestionar y analizar las ventas y las interacciones de los usuarios.
 
-- **Unificar Registros**
-- **Gestionar Desarrolladores**
-- **Clasificación de Aplicaciones**
-- **Administrar Usuarios**
-- **Implementar Promociones**
-- **Monitorizar Ventas de Música**
+### 📑 Entidades
 
-## 📱 Gestionar Desarrolladores y Aplicaciones
+Las principales entidades del sistema son:
 
-### Desarrolladores/Compañías
+- Producto (con subtipos: Aplicación, Dispositivo, Canción)
+- Usuario
+- Promoción
+- Artista
+- Casa Disquera
+- Proveedor (con subtipos: Compañía, Desarrollador)
 
-- **Datos Básicos:** Nombre, fecha de afiliación, dirección, y correo electrónico.
+### 🔗 Relaciones
 
-### Aplicaciones
+Las relaciones definidas entre estas entidades son:
 
-- **Clasificación:** Temáticas como juegos, cocina, lectura, etc.
-- **Detalles:** Costo, dispositivos compatibles, versión de iOS, descripción, nombre, versión, y tamaño.
+1. Compra
+2. Posee
+3. Interpreta
+4. Afiliado
+5. Pública
 
-## 🎶 Gestión de Música y Artistas
 
-### Canciones
+### 🔍 Cómo visualizar el diseño
 
-- **Detalles:** Nombre del artista, casa discográfica, fecha de lanzamiento, duración, disco perteneciente, unidades vendidas y género musical.
+El diseño del modelo entidad-relación se encuentra en este link [Modelo Entidad relacion](https://trilord243.github.io/Modelo-ER/)
 
-### Artistas
 
-- **Información:** Nombre artístico, casa discográfica, tiempo en la industria, y canciones publicadas.
+### 🛠 Herramientas utilizadas
 
-### Casas Disqueras
+- Draw.io
+- Google docs para documentación
 
-- **Datos:** Dirección y nombre en el mercado.
 
-## 💸 Promociones
+### 🧑‍💻 Autores
 
-- **Duración:** Periodo de validez de las promociones.
-- **Aplicabilidad:** Diferenciación por países y usuarios.
-- **Descuentos:** Precios se mantienen; las promociones ofrecen descuentos.
+- Felipe Escalona
+- Andres Rivas
+- Andres Esposito
 
-## 📊 Gestión de Usuarios y Compras
 
-### Usuarios
-
-- **Datos Personales:** Nombre, apellido, dirección, correo electrónico, y detalles de tarjeta de crédito.
-- **Dispositivos:** Modelo, generación, iOS de fábrica, y capacidad.
-
-### Compras
-
-- **Registro:** Fecha de compra, usuario, monto y aplicabilidad de promoción.
-
----
-
-💡 Nota: Este proyecto se encuentra en desarrollo por el equipo de estudiantes de BDI de la UNIMET.
